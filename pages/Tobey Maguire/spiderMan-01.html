@@ -1,19 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../assets/css/internal.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"/>
     <title>AranhaVerso</title>
 </head>
+
 <body>
     <div class="s-wrapper">
+        <!-- Fundo animado  -->
+       <!--  <video loop autoplay muted>
+            <source src="../../assets/videos/spiderman-2002-trailer-teste.mp4" type="video/mp4">
+        </video> -->
+
         <div class="s-left-column">
             <nav class="navigator">
                 <div class="navigator__icon">
                     <a href="../../index.html">
                         <img src="../../assets/images/icons/spiderman1.png" alt="">
-                    </a>   
+                    </a>
                 </div>
                 <ul>
                     <li><a href="#">01</a></li>
@@ -21,12 +29,12 @@
                     <li><a href="#">03</a></li>
                 </ul>
             </nav>
-        </div>
-        <div class="s-main-content">
+        </div>          <!-- Apagar o s-spiderman-tb-01 caso queira um fundo com video -->
+        <div class="s-main-content s-spiderman-tb-01">
             <div class="s-main-content__top">
                 <div class="s-logo">
                     <img src="../../assets/images/Spiderman-Tobey/Movie-01/logo.png" alt="SpiderMan(2002)"
-                    title="SpiderMan(2002)">
+                        title="SpiderMan(2002)">
                 </div>
 
                 <div class="s-description">
@@ -37,21 +45,49 @@
                         </ul>
                     </div>
                     <div class="s-description__text">
-                        <p><strong>Sinopse:</strong>&nbsp;Depois de ser picado por uma aranha geneticamente modificada em uma
-                          demonstração científica, o jovem nerd Peter Parker ganha superpoderes. Inicialmente, ele pretende usá-los
-                          para para ganhar dinheiro, adotando o nome de Homem-Aranha e se apresentando em lutas de exibição. Porém,
-                          ao presenciar o assassinando de seu tio Ben e sentir-se culpado, Peter decide não mais usar seus poderes
-                          para proveito próprio e sim para enfrentar o mal, tendo como seu primeiro grande desafio o psicótico
-                          Duende Verde.</p>
-                      </div>
-
+                        <p><strong>Sinopse:</strong>&nbsp;Depois de ser picado por uma aranha geneticamente modificada
+                            em uma
+                            demonstração científica, o jovem nerd Peter Parker ganha superpoderes. Inicialmente, ele
+                            pretende usá-los
+                            para para ganhar dinheiro, adotando o nome de Homem-Aranha e se apresentando em lutas de
+                            exibição. Porém,
+                            ao presenciar o assassinando de seu tio Ben e sentir-se culpado, Peter decide não mais usar
+                            seus poderes
+                            para proveito próprio e sim para enfrentar o mal, tendo como seu primeiro grande desafio o
+                            psicótico
+                            Duende Verde.</p>
+                    </div>
                 </div>
-
+                <div class="s-links">
+                    <ul>
+                        <li>
+                            <a href="https://www.youtube.com/watch?v=TYMMOjBUPMM" class="link-button" target="_blank">
+                                <span class="icon">
+                                    <div class="play-icon">&nbsp;</div>
+                                </span>
+                                <span class="label">
+                                    Assistir Trailer
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
             <div class="s-main-content__bottom">
-
+                <div class="gallery">
+                    <ul>
+                        <li><a data-fancybox href="../../assets/images/Spiderman-Tobey/Movie-01/Gallery/image-01-full.jpg"><img src="../../assets/images/Spiderman-Tobey/Movie-01/Gallery/image-01.png" alt=""></a></li>
+                        <li><a data-fancybox href="../../assets/images/Spiderman-Tobey/Movie-01/Gallery/image-02-full.jpg"><img src="../../assets/images/Spiderman-Tobey/Movie-01/Gallery/image-02.png" alt=""></a></li>
+                        <li><a data-fancybox href="../../assets/images/Spiderman-Tobey/Movie-01/Gallery/image-03-full.jpg"><img src="../../assets/images/Spiderman-Tobey/Movie-01/Gallery/image-03.png" alt=""></a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+  <script>
+    //  JavaScript will go here
+  </script>
 </body>
-</html> 
+
+</html>

@@ -8,6 +8,12 @@
     background-color: aqua; 
   }
 
+ /* Fundo com animado/trailer ao inves de imagem solida */ 
+/* .s-wrapper video{
+    width: 100%;
+    position: fixed;
+} */
+
 .s-wrapper .s-left-column {
     width: 100px;
     height: 100%;
@@ -24,8 +30,8 @@
 .s-wrapper .s-main-content {
     height: 100%;
     width: 100%;
-    background-color: gray;
     padding-left: 130px;
+    position: relative;
 }
 
 .s-wrapper .s-main-content__top{
@@ -142,3 +148,70 @@
     margin-left: 0;
 }
 
+.s-wrapper .s-main-content .s-links ul{
+    display: flex;
+    flex-direction: row;
+}
+
+a.link-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  
+  a.link-button .icon{
+    width: 32px;
+    height: 32px;
+    padding: 3px;
+    background-color: var(--primary-color);
+    border: solid 1px white;
+    background-clip: content-box;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  a.link-button .icon .play-icon{
+    border:solid 7px white;
+    width:0;
+    height: 0;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    margin-right: -7px;
+  }
+  
+  a.link-button .label{
+    margin-left: 10px;
+  }
+
+  .gallery{
+    padding: 20px;
+    padding-left: 0;
+  }
+
+  .gallery ul{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .gallery ul li{
+    margin-left: 25px;
+  }
+
+  .gallery ul li:first-child{
+    margin-left: 0px;
+  }
+
+  .gallery ul li a img{
+    border: solid 6px white;
+    border-radius: 15px;
+  }
+
+  .s-spiderman-tb-01{
+    background-image: url(../images/Spiderman-Tobey/Movie-01/background.png);
+    background-size: cover;
+  }
