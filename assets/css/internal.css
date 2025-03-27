@@ -215,3 +215,38 @@ a.link-button{
     background-image: url(../images/Spiderman-Tobey/Movie-01/background.png);
     background-size: cover;
   }
+
+  .s-spiderman-tb-02{
+    background-image: url(../images/Spiderman-Tobey/Movie-02/background.png);
+    background-size: cover;
+  }
+
+  .s-spiderman-tb-03{
+    background-image: url(../images/Spiderman-Tobey/Movie-03/background.png);
+    background-size: cover;
+  }
+
+  .s-spiderman-ag-01{
+    background-image: url(../images/Spiderman-Andrew/Movie-01/background.png);
+    background-size: cover;
+  }
+
+  .s-spiderman-ag-02{
+    background-image: url(../images/Spiderman-Andrew/Movie-02/background.png);
+    background-size: cover;
+  }
+
+  .s-spiderman-th-01{
+    background-image: url(../images/Spiderman-Tom/Movie-01/background.png);
+    background-size: cover;
+  }
+
+  .s-spiderman-th-02{
+    background-image: url(../images/Spiderman-Tom/Movie-02/background.png);
+    background-size: cover;
+  }
+
+  .s-spiderman-th-03{
+    background-image: url(../images/Spiderman-Tom/Movie-03/background.png);
+    background-size: cover;
+  }
