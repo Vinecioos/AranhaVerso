@@ -1,32 +1,30 @@
+# AranhaVerso 🕷️🌐
 
-AranhaVerso 🕷️🌐
+## Sobre o Projeto
 
-✨ Sobre o Projeto
+AranhaVerso é um projeto web inspirado no universo do Homem-Aranha, desenvolvido com HTML, CSS e JavaScript. O objetivo é proporcionar uma experiência interativa para os fãs do personagem, explorando elementos visuais e interativos dentro de uma interface dinâmica.
 
-**AranhaVerso** é um projeto web inspirado no universo do Homem-Aranha, desenvolvido com **HTML, CSS e JavaScript.** O objetivo é proporcionar uma experiência interativa para os fãs do personagem, explorando elementos visuais e interativos dentro de uma interface dinâmica.
-
-🚀 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - **HTML** (76.4%) - Estrutura da aplicação
-
 - **CSS** (18.7%) - Estilização e design responsivo
-
 - **JavaScript** (4.9%) - Funcionalidades interativas
 
-🎮 Como Executar o Projeto
+## Como Executar o Projeto
 
-Clone este repositório:
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/Vinecioos/AranhaVerso.git
+   ```
+2. Acesse a pasta do projeto:
+   ```bash
+   cd AranhaVerso
+   ```
+3. Abra o arquivo `index.html` no navegador.
 
-**git clone https://github.com/Vinecioos/AranhaVerso.git**
+## Funcionalidades
 
-Acesse a pasta do projeto:
+- Interface inspirada no multiverso do Homem-Aranha
+- Elementos visuais animados
+- Navegação interativa
 
-cd AranhaVerso
-
-Abra o arquivo index.html no navegador.
-
-🕸️ **Funcionalidades**
-
-✔️ Interface inspirada no multiverso do Homem-Aranha
-✔️ Elementos visuais animados
-✔️ Navegação interativa
