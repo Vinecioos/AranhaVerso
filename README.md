@@ -5,7 +5,7 @@ AranhaVerso 🕷️🌐
 
 **AranhaVerso** é um projeto web inspirado no universo do Homem-Aranha, desenvolvido com **HTML, CSS e JavaScript.** O objetivo é proporcionar uma experiência interativa para os fãs do personagem, explorando elementos visuais e interativos dentro de uma interface dinâmica.
 
-+ 🚀 Tecnologias Utilizadas
+🚀 Tecnologias Utilizadas
 
 - **HTML** (76.4%) - Estrutura da aplicação
 
