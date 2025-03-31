@@ -27,4 +27,6 @@ Abra o arquivo index.html no navegador.
 
 🕸️ **Funcionalidades**
 
-✔️ Interface inspirada no multiverso do Homem-Aranha✔️ Elementos visuais animados✔️ Navegação interativa
+✔️ Interface inspirada no multiverso do Homem-Aranha
+✔️ Elementos visuais animados
+✔️ Navegação interativa
